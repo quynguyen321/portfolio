@@ -4,7 +4,7 @@ export const projects = [
     description: "Using a basic HTML, Javascript, Amazon Aws, Heroku and CSS to create full Funtionaly website.",
       image: '/images/1.png',
       tags: ['HTML&CSS','Javascript', 'Amazon Aws', 'Heroku'],
-    source: '',
+    source: 'https://quy-coffee.herokuapp.com/',
     visit: 'https://github.com/quynguyen321/coffee-shop',
     id: 0,
   },
