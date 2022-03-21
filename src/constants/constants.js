@@ -9,6 +9,16 @@ export const projects = [
     id: 0,
   },
 
+  {
+    title: 'Instagram 2.0',
+    description: "Build a fully functional Instagram feed with comments! Use Tailwind CSS to build a FULLY mobile responsive web app! Build a custom authentication screen using NextAuth!, use Firebase storage API and upload images!, use Recoil as a state management tool!" , 
+      image: '/images/istagram.png/',
+      tags: ['React.js','Next.js','Tailwind CSS','Firebase v9', 'NextAuth','Recoil'],
+    source: 'https://insta-quy.vercel.app/',
+    visit: 'https://github.com/quynguyen321/instagram-2.0',
+    id: 0,
+  },
+
  
 ];
 

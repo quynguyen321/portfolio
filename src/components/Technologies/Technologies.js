@@ -19,8 +19,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
-          HTML and little bit with <br />
-          React.js
+          HTML and React.js
         </ListParagraph>
       </ListContainer>
     </ListItem>
