@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import quy from '../../../public/images/quy1.jpg';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -33,8 +34,7 @@ const Timeline = () => {
     }
   }
 
-  // snap back to beginning of scroll when window is resized
-  // avoids a bug where content is covered up if coming from smaller screen
+
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -49,7 +49,13 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       Hello! My name is Quy and I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performance experiences. My interest in web development started back in 2018, when I took a basic HTML & CSS class, turn out I was having fun when creating a websites.
-      </SectionText>
+      </SectionText >
+      <div className="quy">
+          <img src={quy} width="100" height="50" />
+        </div>
+      
+      
+    
       
 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
