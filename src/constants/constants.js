@@ -1,20 +1,33 @@
 export const projects = [
   {
-    title: 'Coffee Shop',
-    description: "Using a basic HTML, Javascript, Amazon Aws, Heroku and CSS to create full Funtionaly website.",
-      image: '/images/1.png',
-      tags: ['HTML&CSS','Javascript', 'Amazon Aws', 'Heroku'],
-    source: 'https://quy-coffee.herokuapp.com/',
-    visit: 'https://github.com/quynguyen321/coffee-shop',
-    id: 0,
-  },
-  {
     title: 'Portfolio',
     description: "Build a fully functional portfolio. Fully mobile responsive web app! " , 
       image: '/images/portfolio.png/',
       tags: ['React.js','Next.js','CSS'],
     source: 'https://portfolio-quy.netlify.app/',
     visit: 'https://github.com/quynguyen321/portfolio',
+    id: 0,
+  },
+
+
+  {
+    title: 'Movie App',
+    description: "Build a Responsive React Movies App with themoviedb!" , 
+      image: '/images/movie-app.png',
+      tags: ['React.js','scss',  ],
+    source: 'https://movie-app-rose-phi.vercel.app/',
+    visit: 'https://github.com/quynguyen321/movie-app',
+    id: 0,
+  },
+
+  {
+    
+    title: 'Coffee Shop',
+    description: "Using a basic HTML, Javascript, Amazon Aws, Heroku and CSS to create full Funtionaly website.",
+      image: '/images/1.png',
+      tags: ['HTML&CSS','Javascript', 'Amazon Aws', 'Heroku'],
+    source: 'https://quy-coffee.herokuapp.com/',
+    visit: 'https://github.com/quynguyen321/coffee-shop',
     id: 0,
   },
 
@@ -27,6 +40,7 @@ export const projects = [
     visit: 'https://github.com/quynguyen321/instagram-2.0',
     id: 0,
   },
+
 
  
 ];
