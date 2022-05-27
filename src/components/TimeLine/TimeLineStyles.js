@@ -2,9 +2,24 @@
 import styled from 'styled-components'
 
 
+export const Img = styled.img
+`
+  width:50%;
+  height:50%;
+  object-fit: cover;
+  overflow: hidden;
+`
+
+export const Section = styled.section
+`
+display: flex;
+align-items: center;
 
 
-export const CarouselContainer = styled.ul`
+`
+
+export const CarouselContainer = styled.ul
+`
   max-width: 1040px;
   background: #0F1624;
   padding: 0rem;

@@ -50,3 +50,7 @@ export const TimeLineData = [
   { year: 2022, text: 'Graduate from Devmountian', },
 
 ];
+
+export const pic = [
+  {image: '/images/quy1.jpg'}
+]
