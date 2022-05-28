@@ -10,14 +10,6 @@ export const Img = styled.img
   overflow: hidden;
 `
 
-export const Section = styled.section
-`
-display: flex;
-align-items: center;
-
-
-`
-
 export const CarouselContainer = styled.ul
 `
   max-width: 1040px;

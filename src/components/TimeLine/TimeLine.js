@@ -47,10 +47,13 @@ const Timeline = () => {
 
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-
-      {pic.map(({image}) =>(
+    <SectionText>
+    {pic.map(({image}) =>(
          <Img src={image}/>
     ))}
+
+    </SectionText>
+      
       <SectionText >
       Hello! My name is Quy and I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performance experiences. My interest in web development started back in 2018, when I took a basic HTML & CSS class, turn out I was having fun when creating a websites.
       </SectionText >
