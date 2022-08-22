@@ -4,7 +4,7 @@ export const projects = [
     description: "Build a fully functional portfolio. Fully mobile responsive web app! " , 
       image: '/images/portfolio.png/',
       tags: ['React.js','Next.js','CSS'],
-    source: 'https://portfolio-quy.netlify.app/',
+    source: 'https://portfolio-quy.vercel.app/',
     visit: 'https://github.com/quynguyen321/portfolio',
     id: 0,
   },
